@@ -1,158 +1,35 @@
 body{
-background-color: #F2F1E9;
-padding: 0;
-margin: 0;
-}
-
-.wrapper{
- padding: 0;
- margin: 0;
- display: flex;
- flex-direction: column;
+  background-color: #F2F1E9;
+  padding: 0;
+  margin: 0;
 }
 
 header{
-  width: 100%;
-background-color: #FFFFFF;
-display: flex;
-flex-direction: row;
-justify-content: center;
+  background-color: white;
+  height: 40px;
+  display: flex;
+}
+
+nav{
+align-self: center;
+    margin: 0 auto;
 }
 
 ul{
   list-style: none;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-
+  align-content: center;
+  padding: 0;
+  margin: 0;
 }
 
 li{
-  padding: 5px 15px;
-  text-decoration: underline;
-
+  flex-grow: 1;
+      margin-right: 30px;
 }
 
-.nav-bar{
-}
-
-.logo{
-float: left;
-width: 10%;
-margin: 10px;
-}
-
-div{
-
-}
-
-.top-w-background{
-
-}
-
-.top-w-background > section{
-}
-
-.top-w-background > section > img{
-  width: 15%;
-  float: left;
-}
-
-.middle-w-img{
-  background-image: url(file:///Users/AdventrueTime/Desktop/week-one-project/Weekly/optimized/background-3.jpg);
-  background-size: cover;
-  background-position-y: 25%;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 300px;
-  display: flex;
-}
-
-.middle-w-img > p{
+#logo{
+  width: 30px;
+  height: 30px;
   align-self: center;
-  margin: 0 auto;
-  color: white;
-  font-size: 75px;
-}
-
-.bottom-w-background{
-  flex-wrap: wrap;
-}
-
-.bottom-w-background > section > div > section > img{
-  width: 60%;
-}
-
-section{
-
-}
-
-.article-1{
-    width: 80%;
-margin: 10px auto;
-
-}
-
-.article-2{
-  flex-basis: 80%;
-}
-
-.bottom-container{
-  display:flex;
-  flex-wrap: wrap;
-  flex-basis: 100%;
-  width: 80%;
-  margin: 10px auto;
-}
-
-.img-and-caption{
-  flex-basis: 20%;
-}
-
-.table-and-title{
-  margin: 0 auto;
-}
-
-.top-half{
-  display: flex;
-}
-
-blockquote{
-  clear: both;
-}
-
-h1{
-
-}
-
-h2{
-
-}
-
-th, td{
-  padding: 5px;
-}
-
-table, td{
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-
-.colored-rows{
-  background-color: #F2EADE
-}
-
-th{
-  text-align: center;
-  border: 1px solid black;
-  border-collapse: collapse;
-
-}
-
-footer{
-  background-color: #272B22;
-  color: white;
-  display: flex;
-  align-self: flex-end;
-  justify-content: center;
 }

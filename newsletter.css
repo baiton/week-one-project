@@ -1,3 +1,8 @@
+/*Fonts*/
+/*font-family: 'Merriweather', serif;*/
+/*font-family: 'Roboto', sans-serif;*/
+
+
 /*Header nav bar*/
 
 body{
@@ -12,6 +17,7 @@ header{
   background-color: white;
   height: 40px;
   display: flex;
+  font-family: 'Roboto', sans-serif;
 }
 
 nav{
@@ -43,6 +49,11 @@ li > a{
   align-self: center;
 }
 
+h1, h2{
+  font-family: 'Merriweather', serif;
+  font-weight: 200;
+}
+
 /*background image*/
 
 .wrapper{
@@ -66,8 +77,9 @@ li > a{
 #name, #email{
   border: none;
   width:100%;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #958773;
   background-color: none;
+  margin: 10px 0;
 }
 
 /*Submit Button*/
@@ -87,7 +99,7 @@ li > a{
   font-size: 18px;
 }
 
-
 label{
-  color: #958773;
+  color: #78797C;
+  font-family: 'Roboto', sans-serif;
 }

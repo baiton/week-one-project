@@ -1,3 +1,8 @@
+/*Fonts*/
+
+/*font-family: 'Merriweather', serif;*/
+/*font-family: 'Roboto', sans-serif;*/
+
 /*Header nav bar*/
 
 body{
@@ -10,6 +15,7 @@ header{
   background-color: white;
   height: 40px;
   display: flex;
+  font-family: 'Roboto', sans-serif;
 }
 
 nav{
@@ -109,6 +115,11 @@ blockquote{
 h2{
   margin: 0;
   padding: 0;
+}
+
+h1, h2{
+font-family: 'Merriweather', serif;
+font-weight: 200;
 }
 
 .photo-caption{

@@ -1,3 +1,5 @@
+/*Header nav bar*/
+
 body{
   background-color: #F2F1E9;
   padding: 0;
@@ -28,8 +30,118 @@ li{
       margin-right: 30px;
 }
 
+li > a{
+  color: #2C2F27;
+}
+
+
 #logo{
   width: 30px;
   height: 30px;
   align-self: center;
+}
+
+/*main body section*/
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+/*images*/
+
+#banner{
+  background-image: url(Weekly/optimized/background-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 25%;
+  width: 100%;
+  height: 400px;
+}
+
+#banner > p{
+  color: #F2F1E8;
+  font-size: 85px;
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+
+}
+
+section > img{
+  width: 50%;
+}
+
+.article-1 > img{
+  width: 15%;
+  float: left;
+}
+
+/*Top article area*/
+
+.article-1{
+  width: 80%;
+}
+
+blockquote{
+  clear: both;
+  margin: 10px;
+  text-align: left;
+}
+
+/*Bottom Third content*/
+
+.article-3{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+.facilities{
+  flex-basis: 75%;
+  margin-top: 20px;
+}
+
+h2{
+  margin: 0;
+  padding: 0;
+}
+
+.photo-caption{
+  flex-basis: 20%;
+  margin-top: 20px;
+padding-top: 10px;
+}
+
+/*Table*/
+
+table{
+  border-collapse: collapse;
+}
+
+th, td{
+  border: 1px solid #2C2F27;
+  padding: 10px;
+}
+
+/*Footer*/
+footer{
+  background-color: #2C2F27;
+  color: #FFFFFF;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+footer > p{
+  font-size: 16px;
+}
+
+.alternate-row{
+  background-color: #F2EADE
 }

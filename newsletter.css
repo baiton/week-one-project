@@ -18,6 +18,8 @@ header{
   height: 40px;
   display: flex;
   font-family: 'Roboto', sans-serif;
+  box-shadow: 4px 4px 3px rgba(51, 51, 51, 0.58);
+
 }
 
 nav{
@@ -39,7 +41,28 @@ li{
 }
 
 li > a{
-  color: #2C2F27;
+  color: #2B2F26;
+  text-transform: uppercase;
+}
+
+li a:active{
+  color: #968772;
+}
+
+li a:hover{
+  color: #967343
+}
+
+p > a{
+  color: #968772;
+}
+
+p > a:hover{
+  color: #967343;
+}
+
+.newsletter-link a{
+  color: #968772
 }
 
 
@@ -70,16 +93,34 @@ h1, h2{
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  height: 50%;
+  min-height: 50%;
   padding: 30px;
 }
 
-#name, #email{
+#nameInput{
+  font-size: 16px;
   border: none;
   width:100%;
-  border-bottom: 2px solid #958773;
+  border-bottom: 2px solid #968772;
   background-color: none;
   margin: 10px 0;
+}
+
+#emailInput{
+  font-size: 16px;
+  border: none;
+  width:100%;
+  border-bottom: 2px solid #968772;
+  background-color: none;
+  margin: 10px 0;
+}
+
+#nameInput:focus{
+  border-bottom: 2px solid #967343;
+}
+
+#emailInput:focus{
+  border-bottom: 2px solid #967343;
 }
 
 /*Submit Button*/
@@ -98,6 +139,11 @@ h1, h2{
   padding: 10px;
   font-size: 18px;
 }
+.submit-container > input:hover{
+  background-color: #967343;
+  color: #FFFFFF;
+}
+
 
 label{
   color: #78797C;
